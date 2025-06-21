@@ -1,0 +1,16 @@
+buckets:
+  - name: "Global Equity Core"
+    allocation: 40
+    description: "Broad, globally diversified stock ETFs for long-term growth, accumulating, EUR-hedged if possible"
+  - name: "Technology & Innovation"
+    allocation: 25
+    description: "Top US/global tech stocks and ETFs, cloud/software/semiconductors"
+  - name: "AI & Automation"
+    allocation: 15
+    description: "AI, robotics, and automation leaders (stocks and ETFs)"
+  - name: "Sustainability & ESG"
+    allocation: 10
+    description: "ESG, green energy, or socially responsible funds and stocks"
+  - name: "Defensive & Diversifiers"
+    allocation: 10
+    description: "Dividend funds, gold, healthcare, or consumer staples ETFs"
