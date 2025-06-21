@@ -1,9 +1,10 @@
 from ai_agent import OpenAIAgent
 from io_manager import IOManager
 
+
 def main():
     io = IOManager()
-    api_key = io.read_api_key()
+    api_key = io.read_api_key("OPENAI_API_KEY")
     base_prompt = io.read_base_prompt()
     buckets = io.read_buckets()
     model = io.get_model()
@@ -17,6 +18,8 @@ def main():
 
     agent = OpenAIAgent(api_key)
     recommendations = agent.get_recommendations(prompt, model=model)
+
+    print("AI's response:\n")
     for rec in recommendations:
         print(f"{rec['bucket']}: {rec['ticker']} – {rec['name']}")
 

@@ -1,5 +1,6 @@
-import yaml
 import os
+
+import yaml
 from dotenv import load_dotenv
 
 
@@ -13,10 +14,10 @@ class IOManager:
         self.model = self.settings.get("model", "gpt-4o")
 
     @staticmethod
-    def read_api_key():
-        api_key = os.getenv("OPENAI_API_KEY")
+    def read_api_key(name: str):
+        api_key = os.getenv(name)
         if not api_key:
-            raise ValueError("OPENAI_API_KEY not found in environment variables.")
+            raise ValueError(f"'{name}' not found in environment variables.")
         return api_key
 
     def read_base_prompt(self):

@@ -3,4 +3,4 @@ base_prompt: |
   Only output ticker and official name. Prioritize ETFs available to European investors.
   Output each recommendation as: Bucket, Ticker, Official Name. No formatting, only the raw list.
 bucket_file: investment_buckets.yaml
-model: gpt-4o-mini
+model: gpt-4o
