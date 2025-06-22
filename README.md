@@ -18,3 +18,32 @@ Integrates with APIs like Alpha Vantage, NewsAPI, and yfinance.
 - **Configurable investment buckets and strategy**
 - **Secure handling of API keys and settings**
 - **Seamless integration with Interactive Brokers (IBKR) planned**
+
+## Installation
+
+This project requires **Python 3.12** or later.
+Clone the repository and install dependencies using [requirements.txt](requirements.txt):
+
+```bash
+pip install -r requirements.txt
+```
+
+## Configuration
+
+Create a `config/.env` file containing your API keys:
+
+```bash
+OPENAI_API_KEY=your-openai-key
+ALPHA_VANTAGE_API_KEY=your-alpha-vantage-key
+NEWS_API_KEY=your-newsapi-key
+```
+
+## Running the demo
+
+Run the demo script to fetch data and print recommendations:
+
+```bash
+python main.py
+```
+
+
