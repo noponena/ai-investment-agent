@@ -1,4 +1,7 @@
-class IBKRWrapper:
+from .brokers_base import BrokersBase
+
+
+class IBKRBrokerApi(BrokersBase):
     def __init__(self):
         # Initialize IBKR API connection here
         pass

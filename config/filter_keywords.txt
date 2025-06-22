@@ -1,0 +1,130 @@
+# Macro / Central banks / Economy
+fed
+federal reserve
+ecb
+central bank
+interest rate
+rates
+inflation
+cpi
+ppi
+jobs
+unemployment
+payrolls
+recession
+economic growth
+gdp
+bond
+yield
+treasury
+stimulus
+quantitative easing
+taper
+fomc
+policy
+
+# Market moves / Events
+stocks
+stock
+equity
+equities
+market
+markets
+crash
+selloff
+rally
+volatility
+vix
+risk
+bubble
+outlook
+forecast
+dow
+nasdaq
+s&p
+sp500
+russell
+
+# Earnings/Results/Dividends
+earnings
+profit
+loss
+dividend
+results
+revenue
+guidance
+forecast
+quarter
+q1
+q2
+q3
+q4
+
+# Companies/Tech/Innovation
+ai
+artificial intelligence
+machine learning
+tech
+technology
+chip
+semiconductor
+cloud
+software
+hardware
+data center
+ipo
+listing
+startup
+launch
+
+# M&A / Corporate actions
+merger
+acquisition
+takeover
+deal
+spinoff
+spac
+
+# Regulation/Legal
+regulation
+antitrust
+fine
+lawsuit
+doj
+sec
+probe
+ban
+approval
+sanction
+compliance
+
+# Energy/Commodities/Geopolitics
+oil
+gas
+energy
+commodity
+commodities
+opec
+gold
+metals
+mining
+supply chain
+shortage
+war
+conflict
+china
+trade
+tariff
+embargo
+
+# Sentiment/Other
+upgrade
+downgrade
+buyback
+insider
+buy rating
+sell rating
+bullish
+bearish
+warning
+alert

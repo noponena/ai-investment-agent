@@ -7,7 +7,7 @@ __pycache__/
 venv/
 env/
 .venv/
-.env/
+config/.env/
 
 # pipenv / poetry
 Pipfile.lock
@@ -56,7 +56,7 @@ pytest_cache/
 Thumbs.db
 
 # dotenv
-.env
+config/.env
 .env.*
 
 # Spyder
